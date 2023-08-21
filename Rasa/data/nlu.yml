@@ -20,6 +20,14 @@ nlu:
     - quero ele digital
     - como consigo o atestado de matrícula digital?
 
+- intent: atestado_matricula_fisico
+  examples: |
+    - preciso do atestado físico
+    - quero ele físico
+    - preciso dele impresso
+    - preciso dele em papel
+    - como consigo o atestado de matrícula físico?
+
 - intent: atestado_matricula_digital_sim
   examples: |
     - sim

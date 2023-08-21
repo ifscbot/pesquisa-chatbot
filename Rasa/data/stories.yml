@@ -10,5 +10,7 @@ stories:
   - action: utter_atestado_matricula
   - intent: atestado_matricula_digital
   - action: utter_atestado_matricula_digital
+  - intent: atestado_matricula_fisico
+  - action: utter_atestado_matricula_fisico
   - intent: atestado_matricula_digital_sim
   - action: utter_atestado_matricula_digital_sim

@@ -4,6 +4,7 @@ intents:
   - greet
   - atestado_matricula
   - atestado_matricula_digital
+  - atestado_matricula_fisico
   - atestado_matricula_digital_sim
 
 responses:
@@ -15,6 +16,9 @@ responses:
 
   utter_atestado_matricula_digital:
   - text: "Beleza. Para obter seu atestado digital, você precisará de uma conta no SIGAA. Você possue uma conta no SIGAA?"
+
+  utter_atestado_matricula_fisico:
+  - text: "Beleza. Para receber o documento impresso com carimbo e assinatura, você deve ir à secretaria do câmpus pessoalmente."
 
   utter_atestado_matricula_digital_sim:
   - text: "
