@@ -1,0 +1,28 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - oi
+    - olá
+    - oie
+
+- intent: atestado_matricula
+  examples: |
+    - como posso obter meu atestado de matrícula?
+    - onde acho meu atestado de matrícula?
+    - como consigo comprovação de presença?
+    - como encontrar minha matrícula?
+
+- intent: atestado_matricula_digital
+  examples: |
+    - preciso do atestado digital
+    - quero ele digital
+    - como consigo o atestado de matrícula digital?
+
+- intent: atestado_matricula_digital_sim
+  examples: |
+    - sim
+    - sim, tenho conta no SIGAA
+    - possuo conta no SIGAA
+    - tenho cadastro

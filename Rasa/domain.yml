@@ -1,0 +1,29 @@
+version: "3.1"
+
+intents:
+  - greet
+  - atestado_matricula
+  - atestado_matricula_digital
+  - atestado_matricula_digital_sim
+
+responses:
+  utter_greet:
+  - text: "Olá! Sou Ariana, secretária virtual do IFSC Câmpus Gaspar. Me diga o que você precisa, e tentarei lhe ajudar."
+
+  utter_atestado_matricula:
+  - text: "Ótimo! Você pode obter seu atestado de matrícula digitalmente ou fisicamente. Qual você prefere?"
+
+  utter_atestado_matricula_digital:
+  - text: "Beleza. Para obter seu atestado digital, você precisará de uma conta no SIGAA. Você possue uma conta no SIGAA?"
+
+  utter_atestado_matricula_digital_sim:
+  - text: "
+  Certo. Para emitir o seu atestado digital a partir do SIGAA, siga os passos abaixo:
+  - Primeiro acesse o SIGAA (https://sigaa.ifsc.edu.br) utilizando seu login e senha do aluno.
+  - Ao acessar o SIGAA, no menu, clique em \"Ensino\" e, em seguida, em \"Emitir Declaração de Matrícula\". 
+  - O seu Atestado de Frequência será gerado e iniciará o download automaticamente.
+  "
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

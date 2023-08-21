@@ -1,0 +1,14 @@
+version: "3.1"
+
+stories:
+
+- story: atestado
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: atestado_matricula
+  - action: utter_atestado_matricula
+  - intent: atestado_matricula_digital
+  - action: utter_atestado_matricula_digital
+  - intent: atestado_matricula_digital_sim
+  - action: utter_atestado_matricula_digital_sim
